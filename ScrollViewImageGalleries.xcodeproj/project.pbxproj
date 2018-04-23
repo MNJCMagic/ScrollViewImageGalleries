@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		273320E2208E7C1900A9D607 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273320E1208E7C1900A9D607 /* SecondViewController.m */; };
 		27CDED86208E5588008C12FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDED85208E5588008C12FA /* AppDelegate.m */; };
 		27CDED89208E5588008C12FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDED88208E5588008C12FA /* ViewController.m */; };
 		27CDED8C208E5588008C12FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CDED8A208E5588008C12FA /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		273320E0208E7C1900A9D607 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		273320E1208E7C1900A9D607 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		27CDED81208E5588008C12FA /* ScrollViewImageGalleries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewImageGalleries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CDED84208E5588008C12FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27CDED85208E5588008C12FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				27CDED87208E5588008C12FA /* ViewController.h */,
 				27CDED88208E5588008C12FA /* ViewController.m */,
 				27CDED8A208E5588008C12FA /* Main.storyboard */,
+				273320E0208E7C1900A9D607 /* SecondViewController.h */,
+				273320E1208E7C1900A9D607 /* SecondViewController.m */,
 				27CDED8D208E5588008C12FA /* Assets.xcassets */,
 				27CDED8F208E5588008C12FA /* LaunchScreen.storyboard */,
 				27CDED92208E5588008C12FA /* Info.plist */,
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273320E2208E7C1900A9D607 /* SecondViewController.m in Sources */,
 				27CDED89208E5588008C12FA /* ViewController.m in Sources */,
 				27CDED94208E5588008C12FA /* main.m in Sources */,
 				27CDED86208E5588008C12FA /* AppDelegate.m in Sources */,
