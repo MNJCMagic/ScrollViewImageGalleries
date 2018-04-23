@@ -13,6 +13,9 @@
 		27CDED8E208E5588008C12FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CDED8D208E5588008C12FA /* Assets.xcassets */; };
 		27CDED91208E5588008C12FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CDED8F208E5588008C12FA /* LaunchScreen.storyboard */; };
 		27CDED94208E5588008C12FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDED93208E5588008C12FA /* main.m */; };
+		27CDED9B208E59E7008C12FA /* Lighthouse-in-Field.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27CDED9A208E59E7008C12FA /* Lighthouse-in-Field.jpg */; };
+		27CDED9D208E59F3008C12FA /* Lighthouse-night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27CDED9C208E59F3008C12FA /* Lighthouse-night.jpg */; };
+		27CDED9F208E59FC008C12FA /* Lighthouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27CDED9E208E59FC008C12FA /* Lighthouse.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		27CDED90208E5588008C12FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27CDED92208E5588008C12FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27CDED93208E5588008C12FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27CDED9A208E59E7008C12FA /* Lighthouse-in-Field.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lighthouse-in-Field.jpg"; sourceTree = "<group>"; };
+		27CDED9C208E59F3008C12FA /* Lighthouse-night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lighthouse-night.jpg"; sourceTree = "<group>"; };
+		27CDED9E208E59FC008C12FA /* Lighthouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lighthouse.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 		27CDED83208E5588008C12FA /* ScrollViewImageGalleries */ = {
 			isa = PBXGroup;
 			children = (
+				27CDED9A208E59E7008C12FA /* Lighthouse-in-Field.jpg */,
+				27CDED9C208E59F3008C12FA /* Lighthouse-night.jpg */,
+				27CDED9E208E59FC008C12FA /* Lighthouse.jpg */,
 				27CDED84208E5588008C12FA /* AppDelegate.h */,
 				27CDED85208E5588008C12FA /* AppDelegate.m */,
 				27CDED87208E5588008C12FA /* ViewController.h */,
@@ -131,7 +140,10 @@
 			files = (
 				27CDED91208E5588008C12FA /* LaunchScreen.storyboard in Resources */,
 				27CDED8E208E5588008C12FA /* Assets.xcassets in Resources */,
+				27CDED9D208E59F3008C12FA /* Lighthouse-night.jpg in Resources */,
+				27CDED9F208E59FC008C12FA /* Lighthouse.jpg in Resources */,
 				27CDED8C208E5588008C12FA /* Main.storyboard in Resources */,
+				27CDED9B208E59E7008C12FA /* Lighthouse-in-Field.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
