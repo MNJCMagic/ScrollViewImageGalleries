@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
+@property (nonatomic) UIImage* image;
+//-(void)pickImage;
 
 @end
