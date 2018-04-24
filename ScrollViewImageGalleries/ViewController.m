@@ -107,11 +107,11 @@
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView {
     NSLog(@"%f", scrollView.contentOffset.x);
-    if (scrollView.contentOffset.x == 0) {
+    if (scrollView.contentOffset.x < self.ScrollView.contentSize.width / 3) {
         self.pageControl.currentPage = 1;
-    } else if (scrollView.contentOffset.x == 414) {
+    } else if (scrollView.contentOffset.x > self.ScrollView.contentSize.width / 3 && scrollView.contentOffset.x < self.ScrollView.contentSize.width * 0.66) {
         self.pageControl.currentPage = 2;
-    } else if (scrollView.contentOffset.x == 828) {
+    } else if (scrollView.contentOffset.x > self.ScrollView.contentSize.width * 0.66) {
         self.pageControl.currentPage = 3;
     }
 }
