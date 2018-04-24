@@ -72,6 +72,7 @@
     [image3.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor].active = YES;
     [image3.widthAnchor constraintEqualToConstant:width].active = YES;
     [image3.heightAnchor constraintEqualToConstant:height].active = YES;
+    [image3.trailingAnchor constraintEqualToAnchor:self.ScrollView.trailingAnchor].active = YES;
     
     UITapGestureRecognizer *tapRecognizer1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(wasTapped:)];
     UITapGestureRecognizer *tapRecognizer2 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(wasTapped:)];
@@ -101,11 +102,18 @@
     self.pageControl.alpha = 0.5;
     self.pageControl.backgroundColor = [UIColor blackColor];
     self.pageControl.numberOfPages = 3;
-    
-    
-    
-    
+    self.pageControl.currentPage = 1;
+}
 
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    NSLog(@"%f", scrollView.contentOffset.x);
+    if (scrollView.contentOffset.x == 0) {
+        self.pageControl.currentPage = 1;
+    } else if (scrollView.contentOffset.x == 414) {
+        self.pageControl.currentPage = 2;
+    } else if (scrollView.contentOffset.x == 828) {
+        self.pageControl.currentPage = 3;
+    }
 }
 
 -(IBAction)wasTapped:(UITapGestureRecognizer*)sender {
